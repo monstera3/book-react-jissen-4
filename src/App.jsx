@@ -3,7 +3,7 @@
 export const App = () =>{
   return (
     <>
-      <h1>こんにちは</h1>;
+      <h1>こんにちは</h1>
     </>
   );
 
