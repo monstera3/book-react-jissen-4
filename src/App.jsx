@@ -1,5 +1,6 @@
 import { ColoredMessage } from "./components/ColoredMessage";
 import {useState} from "react";
+import { StyledComponents } from "./components/StyledComponents";
 
 export const App = () =>{
 
@@ -17,6 +18,7 @@ export const App = () =>{
       <ColoredMessage color="pink">元気です</ColoredMessage>
       <button onClick={onClickButton}>ボタン</button>
       <p>{num}</p>
+      <StyledComponents />
     </>
   );
 
