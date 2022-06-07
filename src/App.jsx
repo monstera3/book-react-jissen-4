@@ -7,6 +7,11 @@ export const App = () =>{
 
   //stateの定義
   const [num, setNum] = useState(0);
+  const [switchIcon,setSwitchIcon] = useState(true);
+
+  const toggleButton = () => {
+    setSwitchIcon(!switchIcon);
+  }
 
   const onClickButton = () => {
     setNum(num + 1);
@@ -19,7 +24,7 @@ export const App = () =>{
       <button onClick={onClickButton}>ボタン</button>
       <p>{num}</p>
       <StyledComponents />
-      <SwitchButton />
+      <SwitchButton toggleButtton={toggleButton}/>
     </>
   );
 
