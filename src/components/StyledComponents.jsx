@@ -4,7 +4,7 @@ export const StyledComponents = () =>{
   return (
     <SContainer>
       <STitle>StyledComponentsです。</STitle>
-      <SButton>ボタン</SButton>
+      <SButton>作成</SButton>
     </SContainer>
   );
 };
