@@ -24,7 +24,7 @@ export const App = () =>{
       <button onClick={onClickButton}>ボタン</button>
       <p>{num}</p>
       <StyledComponents />
-      <SwitchButton toggleButtton={toggleButton}/>
+      <SwitchButton toggleButton={toggleButton} switchIcon={switchIcon}/>
     </>
   );
 
