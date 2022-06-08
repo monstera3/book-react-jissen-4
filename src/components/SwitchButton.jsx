@@ -12,10 +12,5 @@ export const SwitchButton = (props) => {
 }
 
 const DisplayTypeMessage = (isList) => {
-  if (isList){
-    return("a")
-  } else {
-    return ("b")
-  }
-  // return switchIcon ? "a" : "b";
+  return isList ? "a" : "b";
 }
